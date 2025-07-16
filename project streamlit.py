@@ -56,7 +56,7 @@ st.markdown("---")
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv(r"D:\AI & data\data sets\bs140513_032310.csv")
+        df = pd.read_csv(r"bs140513_032310.csv")
         
         # Clean data
         df = df.replace("'", "", regex=True)
